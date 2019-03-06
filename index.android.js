@@ -23,7 +23,7 @@ const gerarFrase = () => {
   var num = Math.random();
   num = Math.floor(num * 3);
 
-  var msgs = ['Henrique é viado', 'JS é lixo', 'PHP é vida'];
+  var msgs = ['Frase 1', 'Frase 2', 'Frase 3'];
 
   var escolhida = msgs[num];
   alert(escolhida);
